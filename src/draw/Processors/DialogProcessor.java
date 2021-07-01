@@ -1,6 +1,6 @@
 package draw.Processors;
 
-import draw.Model.EnhancedRectangle;
+import draw.Model.EnhancedRectangleShape;
 import draw.Model.OvalShape;
 import draw.Model.RectangleShape;
 import draw.Model.Shape;
@@ -41,7 +41,7 @@ public class DialogProcessor extends DisplayProcessor {
   public void addRandomEnhancedRectangle() {
     int x = 100 + (int) Math.round(Math.random() * 900);
     int y = 100 + (int) Math.round(Math.random() * 500);
-    EnhancedRectangle enhancedRectangle = new EnhancedRectangle(new Rectangle(x, y, 100, 200));
+    EnhancedRectangleShape enhancedRectangle = new EnhancedRectangleShape(new Rectangle(x, y, 100, 200));
     enhancedRectangle.setFillColor(Color.GRAY);
     enhancedRectangle.setBorderColor(Color.GREEN);
     enhancedRectangle.setBorderSize(5);

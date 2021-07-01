@@ -5,13 +5,13 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
 
-public class EnhancedRectangle extends Shape {
+public class EnhancedRectangleShape extends Shape {
 
-  public EnhancedRectangle(Rectangle rect) {
+  public EnhancedRectangleShape(Rectangle rect) {
     super(rect);
   }
 
-  public EnhancedRectangle(EnhancedRectangle shape) {}
+  public EnhancedRectangleShape(EnhancedRectangleShape shape) {}
 
   @Override
   public void drawSelf(Graphics grfx) {
